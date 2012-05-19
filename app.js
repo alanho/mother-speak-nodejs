@@ -9,7 +9,7 @@ io.configure(function () {
 
 var port = process.env.PORT || 8080;
 
-app.listen(8080);
+app.listen(port);
 
 function handler (req, res) {
   fs.readFile(__dirname + '/index.html',
